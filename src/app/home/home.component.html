@@ -1,7 +1,12 @@
-﻿<div class="p-4">
+<div class="p-4">
     <div class="container">
         <h1>Hi {{user.firstName}}!</h1>
-        <p>You're logged in with Angular 9!!</p>
-        <p><a routerLink="/users">Manage Users</a></p>
+        <p>You're logged in with Angular Application as</p>
+        <label>Name: </label><p>{{user.firstName}} {{user.lastName}}</p>
+        <label>Email:</label><div id="userEmail"></div>
+        <div id="googleBtn"></div><br/>
+        <div id="proflImage"></div>
+        
+        <!-- <p><a routerLink="/users">Manage Users</a></p> -->
     </div>
 </div>
