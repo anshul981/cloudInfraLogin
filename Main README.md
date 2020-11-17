@@ -1,4 +1,4 @@
-STeps to run the project->
+Steps to run the project->
 
 1- download the zip file from the repository.
 2- extract the zip file in local machine.
